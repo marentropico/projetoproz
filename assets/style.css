@@ -1,67 +1,65 @@
-body{
-    font-family: 'Segoe UI', Arial, sans-serif;
-    color: #333333;
-    background-color: #dcefff;
-    line-height: 1.6;
-    margin: 0;
-}
+    body{
+        font-family: 'Segoe UI', Arial, sans-serif;
+        color: #333333;
+        background-color: #dcefff;
+        line-height: 1.6;
+        margin: 0;
+    }
 
-.menu-navegacao {
-    background-color: #4eff74;
-    color: #ffffff;
-    padding: 15px;
-    text-align: center;
-    border-bottom: 3px solid #ffffff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
+    .menu-navegacao {
+        background-color: #4eff74;
+        color: #ffffff;
+        padding: 15px;
+        text-align: center;
+        border-bottom: 3px solid #ffffff;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
 
-.menu-navegacao a {
-    margin:0 15px;
-    color: #004d0a;
-    text-decoration: none;
-    font-weight: bold;
-    padding-bottom: 5px;
-    transition: 0.3s;
-}
+    .menu-navegacao a {
+        margin:0 15px;
+        color: #004d0a;
+        text-decoration: none;
+        font-weight: bold;
+        padding-bottom: 5px;
+        transition: 0.3s;
+    }
 
-.menu-navegacao a:hover, .menu-navegacao a.ativo {
-    border-bottom: 2px solid #004d0a;
-}
+    .menu-navegacao a:hover, .menu-navegacao a.ativo {
+        border-bottom: 2px solid #004d0a;
+    }
 
-header{
-    background-color: #dafff6;
-    text-align: center;
-    padding: 0 20px;
-    border-bottom: 3px solid #ebffe9;
-}
+    header{
+        background-color: #dafff6;
+        text-align: center;
+        padding: 0 20px;
+        border-bottom: 3px solid #ebffe9;
+    }
 
-.emoji-grande {
-    font-size: 3em;
-    text-align: center;
-}
+    .emoji-grande {
+        font-size: 3em;
+        text-align: center;
+    }
 
-h1{
-    color: #004d0a;
-    font-size: 2em;
-    margin: 0 0 5px;
-}
+    h1{
+        color: #004d0a;
+        font-size: 2em;
+        margin: 0 0 5px;
+    }
 
-section {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
+    section {
+        padding: 40px 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
 
-.secao-cinza {
-    background-color: #d3e2ff;
-    border-radius: 30px;
-    padding: 30px;
-    margin: 30px;
+.secao-cinza{
+    background-color: #ffffff;
+     max-width: 100%;
 }
 
 .container-central{
-    max-width: 800px;
-    margin: 0 auto;
+   max-width: 800px;
+   margin: 0 auto;
 }
