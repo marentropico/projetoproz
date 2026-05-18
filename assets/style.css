@@ -31,10 +31,9 @@
     }
 
     header{
-        background-color: #dafff6;
+        background-color: #d8f3dc;
         text-align: center;
-        padding: 0 20px;
-        border-bottom: 3px solid #ebffe9;
+        padding: 40px 20px;
     }
 
     .emoji-grande {
@@ -43,15 +42,34 @@
     }
 
     h1{
-        color: #004d0a;
+        color: #2d6a4f;
         font-size: 2em;
         margin: 0 0 5px;
+    }
+
+    h2{
+        color: #2d6a4f;
+        border-left: 4px solid #f6ad55;
+        padding-left: 15px;
     }
 
     section {
         padding: 40px 20px;
         max-width: 800px;
         margin: 0 auto;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        background-color: #f0f0f0;
+        padding: 12px 18px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border-left: 5px solid #4eff74;
     }
 
 .secao-cinza{
@@ -62,4 +80,41 @@
 .container-central{
    max-width: 800px;
    margin: 0 auto;
+}
+
+.formulario{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.botao{
+    display: inline-block;
+    background-color: #f6ad55;
+    color: #1a202c;
+    padding: 15px 35px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #1a3c34;
+    color: white;
+    text-align: center;
+    padding: 30px;
 }
