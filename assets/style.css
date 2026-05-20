@@ -1,7 +1,7 @@
     body{
         font-family: 'Segoe UI', Arial, sans-serif;
         color: #333333;
-        background-color: #dcefff;
+        background-color: #dcffee;
         line-height: 1.6;
         margin: 0;
     }
@@ -31,7 +31,7 @@
     }
 
     header{
-        background-color: #d8f3dc;
+        background-color: #d7f9dc;
         text-align: center;
         padding: 40px 20px;
     }
@@ -89,6 +89,20 @@
     margin: 20px 0;
 }
 
+.acao-item {
+    background-color: hsl(123, 100%, 92%);
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 4px solid #2d6a4f;
+    text-align: center;
+}
+
+.acao-item:hover {
+    transform: translateY(-5px);
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
 .formulario{
     max-width: 500px;
     margin: 20px auto;
@@ -124,4 +138,22 @@ footer{
     color: white;
     text-align: center;
     padding: 30px;
+}
+
+.sucesso {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.erro {
+    background-color: #f8d7da;
+    color: #842029;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
 }
